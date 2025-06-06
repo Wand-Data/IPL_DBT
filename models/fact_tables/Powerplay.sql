@@ -1,5 +1,5 @@
 {{
-    config(MATERIALIZED = "table")
+    config(MATERIALIZED = "view")
 }}
 
 WITH powerplay_cte AS (
