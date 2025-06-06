@@ -28,4 +28,4 @@ p.team,
 case
 when p.team = p.team_1 then p.team_2
 when p.team = p.team_2 then p.team_1
-end as opponent
+end 
