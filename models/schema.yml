@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: ipl_data
+    database: IPL
+    schema: IPL_DATA
+    tables:
+      - name: ipl_match_data
+        description: "Raw ipl match data"
