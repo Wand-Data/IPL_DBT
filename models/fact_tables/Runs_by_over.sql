@@ -6,6 +6,10 @@ p.match_id,
 p.city,
 p.bowler,
 p.team,
+case
+when p.team = p.team_1 then p.team_2
+when p.team = p.team_2 then p.team_1
+end as opponent,
 count(p.wicket_kind) as wickets,
 sum(p.runs_total) as total_runs,
 sum(p.extras_byes) as extra_byes,
