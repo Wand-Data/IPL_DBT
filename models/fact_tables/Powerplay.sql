@@ -1,4 +1,4 @@
-{{config(MATERIALIZED="view")}}
+{{config(materialized='view')}}
 
 WITH powerplay_cte AS (
     Select 
